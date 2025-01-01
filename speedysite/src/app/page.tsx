@@ -1,7 +1,7 @@
 import Header from './components/Header'
 import '@/styles/animated_gradient.css'
 
-export default function Home() {
+export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col animated-gradient">
       <Header />
