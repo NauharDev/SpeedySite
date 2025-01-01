@@ -8,7 +8,7 @@ const Header = () => {
     const handleSignIn = () => {
         const cognitoDomain = process.env.COGNITO_DOMAIN; // Replace with your domain
         const clientId = process.env.COGNITO_CLIENT_ID; // Replace with your app client ID
-        const redirectUri = "https://speedy-site-coral.vercel.app"; // Replace with your redirect URI
+        const redirectUri = "https://speedy-site-web.vercel.app"; // Replace with your redirect URI
         const responseType = "code"; // Use 'code' for Authorization Code Grant or 'token' for Implicit Grant
         const scope = "email+openid+phone";
         const cognitoSignInUrl = `https://${cognitoDomain}/login?client_id=${clientId}&response_type=${responseType}&scope=${scope}&redirect_uri=${encodeURIComponent(
