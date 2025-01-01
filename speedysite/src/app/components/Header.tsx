@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 
 const Header = () => {
     const handleSignIn = () => {
-        const cognitoDomain = process.env.COGNITO_DOMAIN; // Replace with your domain
-        const clientId = process.env.COGNITO_CLIENT_ID; // Replace with your app client ID
+        const cognitoDomain = process.env.NEXT_PUBLIC_COGNITO_DOMAIN; // Replace with your domain
+        const clientId = process.env.NEXT_PUBLIC_COGNITO_CLIENT_ID; // Replace with your app client ID
         const redirectUri = "https://speedy-site-web.vercel.app"; // Replace with your redirect URI
         const responseType = "code"; // Use 'code' for Authorization Code Grant or 'token' for Implicit Grant
         const scope = "email+openid+phone";
