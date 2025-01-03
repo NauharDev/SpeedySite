@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'ResumeLife - Bring Your Resume to Life',
-    description: 'Transform your resume into an interactive and engaging experience',
+    title: 'SpeedySite - Bring Your Resume to Life',
+    description: 'Transform your resume into a professional portfolio in minutes.',
 }
 
 
